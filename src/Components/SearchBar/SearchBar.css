@@ -1,0 +1,26 @@
+.search-bar {
+    width: 40dvw;
+    padding: 15px;
+    border-radius: 2px;
+    border: none;
+    box-shadow: #f5f5dc 2px 2px;
+}
+
+.search-bar-submit, #filter-bank-milk {
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: #f5f5dc 2px 2px;
+    border: none;
+}
+
+.search-bar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 75%;
+    left:50%;
+    gap: 15px;
+}
