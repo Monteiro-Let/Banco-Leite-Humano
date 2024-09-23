@@ -1,0 +1,21 @@
+.Footer-container {
+    width: 100dvw;
+    padding: 20px;
+    background-color: #00e5ff;
+}
+
+.Footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+span, .Footer-paragraph {
+    color: #ff5a79;
+}
+
+.Footer-span:hover {
+    background-color: #fffbfba1;
+    border-radius: 4px;
+    padding: 1px;
+}

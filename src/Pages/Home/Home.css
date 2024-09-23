@@ -1,0 +1,16 @@
+.home-section {
+    padding: 20px;
+  }
+  
+  .cards-container {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .cards-container .card {
+    flex: 1 1 calc(50% - 20px); 
+  }
+  

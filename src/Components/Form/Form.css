@@ -1,16 +1,30 @@
+.Section-form {
+    display: flex;
+    flex-direction: row;
+     margin-left: 150px;
+}
 
+.Form-title {
+    padding-top: 100px;
+    margin-top: 500px;
+    width: 500px;
+    height: 360px;
+}
+
+.Title {
+    padding-right: 30px;
+    font-size: 40px;
+    word-spacing: 12px;
+}
 
 .form-container {
     margin-top: 500px;
-    margin-left: 400px;
 }
 
-.form-title {
-    margin-bottom: 10px;
-}
 
 .form-fieldset {
     border-radius: 8px;
+    border: 2px solid;
     padding: 20px;
     width: 500px;
     height: 360px;
@@ -36,15 +50,14 @@ label {
 }
 
 #register {
-    background-color: #28a745;
-    color: #fff;
-    padding: 10px 15px;
+    background-color: #ff5a79;
     border: none;
     border-radius: 4px;
+    padding: 10px 15px;
     cursor: pointer;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 #register:hover {
-    background-color: #218838;
+    background-color: #f3005e;
 }

@@ -1,4 +1,5 @@
 import './Header.css';
+
 function Header() {
     return (
       <>
@@ -11,7 +12,6 @@ function Header() {
                   <a href=""><span>⭐</span></a>GitHub</button>
                  <button className="share"><span className='icon-link'>🔗</span>Compartilhar</button>
                 </div>
-                <span className="icon-humburger"></span>
             </nav>
         </header>
       </>
